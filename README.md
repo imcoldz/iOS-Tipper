@@ -8,4 +8,4 @@ Completed user stories:
  * [x] Optional: by tapping different tip percentage, the tip and total amount will also be updated, the background color will also change accordingly (blue, yellow or red)
  * [x] Optional: added a customized app icon
 
-
+![Video Walkthrough](https://github.com/imcoldz/iOS-Tipper/blob/master/tipper_walktrough.gif)
