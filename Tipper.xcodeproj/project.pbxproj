@@ -10,9 +10,9 @@
 		E233C1C11A6B3EC200F8DACF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E233C1C01A6B3EC200F8DACF /* AppDelegate.swift */; };
 		E233C1C31A6B3EC200F8DACF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E233C1C21A6B3EC200F8DACF /* ViewController.swift */; };
 		E233C1C61A6B3EC200F8DACF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E233C1C41A6B3EC200F8DACF /* Main.storyboard */; };
-		E233C1C81A6B3EC200F8DACF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E233C1C71A6B3EC200F8DACF /* Images.xcassets */; };
 		E233C1CB1A6B3EC200F8DACF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E233C1C91A6B3EC200F8DACF /* LaunchScreen.xib */; };
 		E233C1D71A6B3EC200F8DACF /* TipperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E233C1D61A6B3EC200F8DACF /* TipperTests.swift */; };
+		E233C1E21A6C743600F8DACF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E233C1E11A6C743600F8DACF /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,11 +31,11 @@
 		E233C1C01A6B3EC200F8DACF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E233C1C21A6B3EC200F8DACF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E233C1C51A6B3EC200F8DACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E233C1C71A6B3EC200F8DACF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E233C1CA1A6B3EC200F8DACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E233C1D01A6B3EC200F8DACF /* TipperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E233C1D51A6B3EC200F8DACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E233C1D61A6B3EC200F8DACF /* TipperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipperTests.swift; sourceTree = "<group>"; };
+		E233C1E11A6C743600F8DACF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +79,8 @@
 			children = (
 				E233C1C01A6B3EC200F8DACF /* AppDelegate.swift */,
 				E233C1C21A6B3EC200F8DACF /* ViewController.swift */,
+				E233C1E11A6C743600F8DACF /* Images.xcassets */,
 				E233C1C41A6B3EC200F8DACF /* Main.storyboard */,
-				E233C1C71A6B3EC200F8DACF /* Images.xcassets */,
 				E233C1C91A6B3EC200F8DACF /* LaunchScreen.xib */,
 				E233C1BE1A6B3EC200F8DACF /* Supporting Files */,
 			);
@@ -192,9 +192,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E233C1E21A6C743600F8DACF /* Images.xcassets in Resources */,
 				E233C1C61A6B3EC200F8DACF /* Main.storyboard in Resources */,
 				E233C1CB1A6B3EC200F8DACF /* LaunchScreen.xib in Resources */,
-				E233C1C81A6B3EC200F8DACF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tipper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tipper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -405,6 +407,7 @@
 				E233C1DC1A6B3EC200F8DACF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E233C1DD1A6B3EC200F8DACF /* Build configuration list for PBXNativeTarget "TipperTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +416,7 @@
 				E233C1DF1A6B3EC200F8DACF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
